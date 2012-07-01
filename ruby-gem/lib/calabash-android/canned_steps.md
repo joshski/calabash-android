@@ -53,7 +53,7 @@ Enters the specified text into the input field with index `number`.
 
     Then /^I enter "([^\"]*)" as "([^\"]*)"$/ do |text, target|
     Then /^I enter "([^\"]*)" into "([^\"]*)"$/ do |text, target|
-Enters the specified text into the input field that has a content desciption that matches the provided target.
+Enters the specified text into the input field that has a content description that matches the provided target.
 
 
 
@@ -128,7 +128,7 @@ Will look for a view in the following order:
 
 1. Looks for a visible button with matching text.
 2. Look for a visible view with a matching content description.
-3. Look for a visible view with class name that matches the provided indentifier.
+3. Look for a visible view with class name that matches the provided identifier.
 
 If a view is found we will try to click it.
 
@@ -204,7 +204,7 @@ You can change the location any address or named location. This is done using th
     Then /^I am at "([^\"]*)"$/ do |location|
     Then /^I go to "([^\"]*)"$/ do |location|
 
-To use a set of concrete GPS cordinates
+To use a set of concrete GPS coordinates
 
     Then /^I am at ([-+]?[0-9]*\.?[0-9]+), ([-+]?[0-9]*\.?[0-9]+)$/ do |latitude, longitude|
     Then /^I go to ([-+]?[0-9]*\.?[0-9]+), ([-+]?[0-9]*\.?[0-9]+)$/ do |latitude, longitude|
